@@ -1253,7 +1253,7 @@
         }
         
         function endsWith(href,ext){
-            return href.indexOf(ext)==href.length-ext.length && ext.length>href.length;
+            return href.indexOf(ext)==href.length-ext.length && ext.length<=href.length;
         }
         
     }
